@@ -21,7 +21,7 @@ stage('cat README') {
 
       when {
 
-        branch "dev-branch"
+        branch "QA-branch"
 
       }
 
