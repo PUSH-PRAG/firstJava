@@ -26,7 +26,7 @@ pipeline{
 
       steps {
 
-        sh '''
+        bat '''
 
           cat README.md
 
