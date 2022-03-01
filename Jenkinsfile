@@ -16,17 +16,18 @@ pipeline{
       }
 
     }
-    stage('cat README') {
+ 
+stage('cat README') {
 
       when {
 
-        branch "dev"
+        branch "dev-branch"
 
       }
 
       steps {
 
-        sh '''
+        bat '''
 
           cat README.md
 
@@ -34,7 +35,6 @@ pipeline{
 
       }
     }
-
   }
 
 }
